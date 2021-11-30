@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+:root{
+    --negro: #000000;
+    --plomo: #898f8e;
+    --degradado:linear-gradient(90deg, var(--plomo), var(--negro));
+}
+*{
+    font-family: 'Euphoria Script', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+*::selection{
+    background: var(--plomo);
+    color: rgb(0, 0, 0);
+}
+html{
+    font-size: 122%;
+    overflow: hidden;
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.getyourguide.com/img/location/5c950d52d9600.jpeg/88.jpg);
+}
+section{
+    min-height: 40vh;
+    padding: 0 9%;
+    padding-top: 5.5rem;
+    padding-bottom: 2rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:rgb(143, 32, 32);
+    box-shadow: 0 .1rem 1rem  rgba(46, 44, 44, 0.548);
+    padding: 1rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-size: 5;
+    color: var(--negro);
+}
+header .logo span{
+    color: var(--plomo);
+    padding-left: 1.3rem;
+    margin-left: 3rem;
+}
+header .navbar a{
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    color: var(--negro);
+}
+header .navbar a:hover{
+    color: var(--plomo)
+}
+.content-header{
+    text-align: center;
+    color: white;
+}

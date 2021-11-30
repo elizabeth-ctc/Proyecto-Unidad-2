@@ -1,0 +1,15 @@
+body{
+    background: rgba(230, 230, 70, 0.774);
+    text-align: justify;
+   
+}
+
+.text-center{
+    text-align: center;
+    width: 750px;
+    margin-left: 300px;
+}
+
+img{
+    margin-left: 450px;
+}
